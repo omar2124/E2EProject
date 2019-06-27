@@ -25,7 +25,7 @@ public class LandingPage {
 	{
 		return driver.findElement(tittle);
 	}
-	public WebElement navBar()
+	public WebElement getNavigatioBar()
 	{
 		return driver.findElement(navbar);
 	}

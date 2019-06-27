@@ -1,0 +1,65 @@
+# Created at 2019-06-25T16:15:19.155
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-06-25T16:15:28.377
+Unexpected IOException: 8,1,Academy.HomePage,initialize(Academy.HomePage),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TDG-MBL-GDL623'\002C ip: '172.18.13.14'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_191'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005COMARZA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:55878}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 496d0909005de44ca65cf9f504b03f92,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TDG-MBL-GDL623'\002C ip: '172.18.13.14'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_191'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005COMARZA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:55878}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 496d0909005de44ca65cf9f504b03f92,HomePage.initialize \00BB NoSuchWindow no such window: target window already close...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'TDG-MBL-GDL623'\002C ip: '172.18.13.14'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_191'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005COMARZA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:55878}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 496d0909005de44ca65cf9f504b03f92\000A
+
+
+# Created at 2019-06-25T16:15:28.382
+Unexpected IOException: 9,1,Academy.HomePage,initialize(Academy.HomePage),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.393
+Unexpected IOException: 5,1,Academy.HomePage,basePageNavigation(Academy.HomePage),Academy.HomePage,null,null
+
+
+# Created at 2019-06-25T16:15:28.403
+Unexpected IOException: 9,1,Academy.HomePage,basePageNavigation(Academy.HomePage),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.406
+Unexpected IOException: 5,1,Academy.HomePage,basePageNavigation(Academy.HomePage),Academy.HomePage,null,null
+
+
+# Created at 2019-06-25T16:15:28.408
+Unexpected IOException: 9,1,Academy.HomePage,basePageNavigation(Academy.HomePage),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.411
+Unexpected IOException: 5,1,Academy.validateNavigationBar,basePageNavigation(Academy.validateNavigationBar),Academy.validateNavigationBar,null,null
+
+
+# Created at 2019-06-25T16:15:28.413
+Unexpected IOException: 9,1,Academy.validateNavigationBar,basePageNavigation(Academy.validateNavigationBar),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.417
+Unexpected IOException: 5,1,Academy.validateTittle,basePageNavigation(Academy.validateTittle),Academy.validateTittle,null,null
+
+
+# Created at 2019-06-25T16:15:28.420
+Unexpected IOException: 9,1,Academy.validateTittle,basePageNavigation(Academy.validateTittle),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.423
+Unexpected IOException: 9,1,Academy.HomePage,teardown(Academy.HomePage),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.425
+Unexpected IOException: 9,1,Academy.HomePage,teardown(Academy.HomePage),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.429
+Unexpected IOException: 9,1,Academy.HomePage,teardown(Academy.HomePage),null,null,null
+
+
+# Created at 2019-06-25T16:15:28.595
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

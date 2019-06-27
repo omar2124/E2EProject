@@ -2,31 +2,50 @@ package Academy;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import Resources.base;
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
+import resources.base;
 
 public class HomePage extends base{
 
-	@Test (dataProvider="getData")
-	public void basePageNavigation(String Username, String Password, String Text) throws IOException
+	public static Logger log = LogManager.getLogger(base.class.getName());
+	@BeforeTest
+	public void initialize() throws IOException
 	{
 		driver = InitializeDriver();
-		driver.get("http://qaclickacademy.com");
+	}
+	
+	@Test (dataProvider="getData")
+	public void basePageNavigation(String Username, String Password, String Text) 
+	{
+		
 		/* There are two ways to access the method from another class
 		 * One is inheritance
 		 * second is creating object to that class and invoke methods of it
 		 */
+		driver.get(prop.getProperty("url"));
 		LandingPage l = new LandingPage(driver);
 		l.getLogin().click();
 		LoginPage lp = new LoginPage(driver);
 		lp.Email().sendKeys(Username);		
 		lp.Password().sendKeys(Password);
-		System.out.println(Text);
+		//System.out.println(Text);
+		log.info(Text);
 		lp.LogIN().click();
+	}
+	
+	@AfterTest
+	public void teardown()
+	{
+		driver.close();
+		driver=null;
 	}
 	
 	@DataProvider
